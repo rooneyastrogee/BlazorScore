@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stripe.net" Version="39.90.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Score.BusinessLogic\Score.BusinessLogic.csproj" />
+  </ItemGroup>
+
+</Project>
